@@ -6,17 +6,16 @@ public class Array03 {
 
 		// Create a 2D array of integer values. Print the sum of all numbers.
 		
-		int [][] num=new int [2][3];
-		num [0][0]=0;
-		num [0][1]=5;
-		num [0][2]=15;
-		num [1][0]=20;
-		num [1][1]=50;
-		num [1][2]=70;
+		int[][] num= {{0,5,15},{20,50,70}};
+		int sum=0;
+		for (int i=0;i<num.length;i++) {
+			for (int j=0;j<num[0].length;j++) {
+				sum+=num[i][j];
+			}
+		}
 		
+		System.out.println("Sum = "+sum);
 		
-
-
 	}
 
 }
