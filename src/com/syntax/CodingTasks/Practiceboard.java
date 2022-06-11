@@ -5,6 +5,57 @@ import java.util.Scanner;
 public class Practiceboard {
 
 	public static void main(String[] args) {
+
+		/*
+		 * For you to do:
+		 * 
+		 * Write a program that sums all numbers that are on even index and on even row.
+		 * 
+		 * Expected Output:
+		 * 
+		 * -4
+		 */
+		
+//		int[][] a = { { -5, -2, -3, 7 }, { 1, -5, -2, 2 }, { 1, -2, 3, -4 } };
+//
+//		int sum = 0;
+//		for (int i = 0; i < a.length; i++) {
+//			for (int j = 0; j < a[i].length; j++) {
+//				if (i % 2 == 0 && j % 2 == 0) {
+//					sum = sum + a[i][j];
+//				}
+//			}
+//			;
+//		}
+//		;
+//		System.out.println(sum);
+		
+		
+		
+		
+
+		/*
+		 * Write a program that prints the total number of elements that are negative
+		 * AND odd
+		 * 
+		 * Output: for example -3 is both negative and odd
+		 * 
+		 * 3
+		 */
+//		int[][] a = {
+//				{-5,-2,-3,7},
+//				{1,-5,-2,2},
+//				{1,-2,3,-4}
+//			};
+//		
+//		for (int i=0;i<a.length;i++) {
+//			for (int j=0;j<a[i].length;j++) {
+//				if (a[i][j]%2!=0 && a[i][j]>1 && a[i][j]<7) {
+//					System.out.println(a[i][j]);
+//				}
+//			};
+//		};
+
 //		
 		/*
 		 * Create an int array of integers with a size of 5 and input values with
